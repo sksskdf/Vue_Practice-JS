@@ -4,6 +4,9 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
 import '@babel/polyfill'
+import StatusComponents from './Status.vue'
+
+Vue.component('AppStatus',StatusComponents)
 
 Vue.config.productionTip = false
 
